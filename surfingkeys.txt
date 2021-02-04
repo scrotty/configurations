@@ -1,8 +1,8 @@
-map('H', 'S');
-map('L', 'D');
+map('J', 'S');
+map('K', 'D');
 
-map('J', 'E');
-map('K', 'R');
+map('H', 'E');
+map('L', 'R');
 
 settings.smoothScroll = false;
 
