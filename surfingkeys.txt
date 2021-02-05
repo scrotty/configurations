@@ -64,7 +64,7 @@ kbd {
     color: #6272a4;
 }
 .sk_theme .focused {
-    background: #44475a !important;
+    border: 2px solid #ff5555 !important;
 }
 .sk_theme kbd {
     background: #f8f8f2;
