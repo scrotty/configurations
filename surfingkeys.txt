@@ -74,7 +74,7 @@ kbd {
     background: #8178DE9E;
 }
 .sk_theme .omnibar_highlight {
-    color: #8be9fd;
+    border: 2px solid red;
 }
 .sk_theme .omnibar_folder {
     color: #ff79c6;
