@@ -54,12 +54,6 @@ kbd {
 .sk_theme .url {
     color: #6272a4;
 }
-#sk_omnibarSearchResult>ul>li {
-    background: #282a36;
-}
-#sk_omnibarSearchResult>ul>li:nth-child(odd) {
-    background: #282a36;
-}
 .sk_theme .annotation {
     color: #6272a4;
 }
@@ -85,12 +79,7 @@ kbd {
 .sk_theme .omnibar_visitcount {
     color: #f1fa8c;
 }
-.sk_theme #sk_omnibarSearchResult>ul>li:nth-child(odd) {
-    background: #282a36;
-}
-.sk_theme #sk_omnibarSearchResult>ul>li:nth-child(even) {
-    background: #8A91BA;
-}
+
 .sk_theme .prompt, .sk_theme .resultPage {
     color: #50fa7b;
 }
@@ -99,6 +88,9 @@ kbd {
 }
 .sk_omnibar_middle #sk_omnibarSearchArea {
     border-bottom: 1px solid #282a36;
+}
+.sk_theme #sk_omnibarSearchResult>ul>li:nth-child(odd) {
+    background: #8A91BA;
 }
 #sk_status {
     border: 1px solid #282a36;
