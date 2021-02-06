@@ -89,8 +89,8 @@ kbd {
 .sk_omnibar_middle #sk_omnibarSearchArea {
     border-bottom: 1px solid #282a36;
 }
-#sk_omnibarSearchResult>ul>li:nth-child(odd) {
-    background: #8A91BA;
+.sk_theme #sk_omnibarSearchResult>ul>li:nth-child(odd) {
+    background: #8A91BA !important;
 }
 #sk_status {
     border: 1px solid #282a36;
