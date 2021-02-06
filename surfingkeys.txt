@@ -57,9 +57,6 @@ kbd {
 .sk_theme .annotation {
     color: #6272a4;
 }
-.sk_theme .focused {
-    border: 2px solid #ff5555 !important;
-}
 .sk_theme kbd {
     background: #f8f8f2;
     color: #44475a;
@@ -91,6 +88,9 @@ kbd {
 }
 .sk_theme #sk_omnibarSearchResult ul li:nth-child(odd) {
     background: #8A91BA;
+}
+.sk_theme .focused {
+    border: 2px solid #ff5555 !important;
 }
 #sk_status {
     border: 1px solid #282a36;
