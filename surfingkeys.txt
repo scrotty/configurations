@@ -4,7 +4,7 @@ map('K', 'D');
 map('H', 'E');
 map('L', 'R');
 
-settings.smoothScroll = false;
+settings.smoothScroll = true;
 
 Hints.characters = "asdfgqwertvbn";
 Hints.style('border: solid 1px #ff79c6; color:#44475a; background: #f1fa8c; background-color: #f1fa8c; font-size: 10pt; font-family: "Fira Code"');
@@ -74,7 +74,7 @@ kbd {
     background: #8178DE9E;
 }
 .sk_theme .omnibar_highlight {
-    border: 2px solid #ff5555;
+    background-color: #ffff99;
 }
 .sk_theme .omnibar_folder {
     color: #ff79c6;
@@ -87,6 +87,9 @@ kbd {
 }
 .sk_theme #sk_omnibarSearchResult>ul>li:nth-child(odd) {
     background: #282a36;
+}
+.sk_theme #sk_omnibarSearchResult>ul>li:nth-child(even) {
+    background: #8A91BA;
 }
 .sk_theme .prompt, .sk_theme .resultPage {
     color: #50fa7b;
